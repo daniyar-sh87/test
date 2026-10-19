@@ -1,0 +1,50 @@
+[
+  {
+    "id": "dataplatform",
+    "desc": "Ingests, stores and governs large structured, streaming and time-series data with connectors and access control.",
+    "domains": [
+      "Smart City",
+      "Energy"
+    ],
+    "example": true,
+    "name": "Data Platform"
+  },
+  {
+    "id": "geo",
+    "desc": "Maps, geospatial analysis and location-based dashboards for operations centres.",
+    "domains": [
+      "Smart City"
+    ],
+    "example": true,
+    "name": "Geo Intelligence"
+  },
+  {
+    "id": "predictive",
+    "desc": "Forecasting and anomaly detection models with templates, model monitoring and explainability.",
+    "domains": [
+      "Energy",
+      "Finance"
+    ],
+    "example": true,
+    "name": "Predictive Analytics Studio"
+  },
+  {
+    "id": "risk",
+    "desc": "Rule plus ML risk scoring for entities and transactions with audit trail and case management.",
+    "domains": [
+      "Finance"
+    ],
+    "example": true,
+    "name": "Risk & Compliance Engine"
+  },
+  {
+    "id": "vision",
+    "desc": "Video and image AI: object, incident and defect detection from CCTV, drones and satellite imagery.",
+    "domains": [
+      "Smart City",
+      "Energy"
+    ],
+    "example": true,
+    "name": "Vision Analytics"
+  }
+]

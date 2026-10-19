@@ -1,0 +1,392 @@
+[
+  {
+    "id": "ex-grid",
+    "client": "National Energy Utility",
+    "createdAt": "2026-10-19T06:00:00Z",
+    "domain": "Energy",
+    "example": true,
+    "gaps": [
+      "OT network security certification",
+      "On-premise deployment option"
+    ],
+    "need": "Detect early failure signals across 3,000 substations from SCADA telemetry and drone imagery.",
+    "next": "Submit proposal and kick off OT certification.",
+    "dueDate": "2026-10-17",
+    "owner": "S. Ali",
+    "products": [
+      {
+        "f": 85,
+        "n": "Predictive Analytics Studio",
+        "note": "Anomaly models proven on telemetry"
+      },
+      {
+        "f": 70,
+        "n": "Vision Analytics",
+        "note": "Drone image defect detection"
+      },
+      {
+        "f": 80,
+        "n": "Data Platform",
+        "note": "Time-series ingestion at scale"
+      }
+    ],
+    "risks": [
+      {
+        "c": "Security",
+        "l": "M",
+        "m": "Start certification in parallel with proposal",
+        "note": "OT certification takes about 10 weeks"
+      },
+      {
+        "c": "Competition",
+        "l": "L",
+        "m": "",
+        "note": "Two bidders, weaker on imagery"
+      },
+      {
+        "c": "Budget",
+        "l": "L",
+        "m": "",
+        "note": "Budget approved in capex plan"
+      }
+    ],
+    "source": "Account plan",
+    "stage": "Proposal",
+    "stakeholders": [
+      {
+        "i": "H",
+        "n": "VP Asset Management",
+        "r": "Decision maker",
+        "s": "Champion"
+      },
+      {
+        "i": "H",
+        "n": "CISO",
+        "r": "Approver",
+        "s": "Neutral"
+      },
+      {
+        "i": "M",
+        "n": "Field Operations Head",
+        "r": "End user",
+        "s": "Champion"
+      }
+    ],
+    "status": "Proposal draft 80% done; CISO asked for OT security approach before pricing review.",
+    "statusAt": "2026-10-18T09:00:00Z",
+    "strategic": [
+      "Largest deal in pipeline",
+      "Multi-year support contract"
+    ],
+    "timeline": "Award expected Dec 2026",
+    "tasks": [
+      { "id": "ex-grid-t1", "ws": "Solution design", "t": "Finalise SCADA + drone ingestion architecture", "owner": "R. Khan", "due": "2026-10-14", "status": "Done" },
+      { "id": "ex-grid-t2", "ws": "Solution design", "t": "OT security approach note for the CISO", "owner": "R. Khan", "due": "2026-10-17", "status": "In progress" },
+      { "id": "ex-grid-t3", "ws": "Demo", "t": "Anomaly detection demo on substation telemetry", "owner": "L. Park", "due": "2026-10-28", "status": "To do" },
+      { "id": "ex-grid-t4", "ws": "Proposal", "t": "Complete proposal draft (80% done)", "owner": "S. Ali", "due": "2026-10-30", "status": "In progress" },
+      { "id": "ex-grid-t5", "ws": "Pricing", "t": "Multi-year support pricing model", "owner": "M. Haddad", "due": "2026-11-04", "status": "Blocked" },
+      { "id": "ex-grid-t6", "ws": "Security questionnaire", "t": "Answer client security questionnaire", "owner": "N. Farouk", "due": "2026-11-10", "status": "To do" }
+    ],
+    "title": "Grid asset anomaly monitoring",
+    "valueM": 6.8,
+    "valueScore": 88
+  },
+  {
+    "id": "ex-retail",
+    "client": "Metro Retail Group",
+    "createdAt": "2026-10-19T06:00:00Z",
+    "domain": "Retail",
+    "example": true,
+    "gaps": [
+      "Lightweight per-store pricing",
+      "Self-service dashboard"
+    ],
+    "need": "Count visitors and measure dwell time per zone to compare store layouts.",
+    "next": "Send budget qualification questions; deprioritise until answered.",
+    "dueDate": "2026-10-24",
+    "owner": "A. Rahman",
+    "products": [
+      {
+        "f": 65,
+        "n": "Vision Analytics",
+        "note": "Works, but heavy for this need"
+      }
+    ],
+    "risks": [
+      {
+        "c": "Competition",
+        "l": "H",
+        "m": "Only bid if bundled with wider analytics",
+        "note": "Many low-cost SaaS footfall vendors"
+      },
+      {
+        "c": "Budget",
+        "l": "H",
+        "m": "Ask for budget range before any demo",
+        "note": "No budget confirmed"
+      },
+      {
+        "c": "Fit",
+        "l": "M",
+        "m": "",
+        "note": "Our stack is heavy for 40 small sites"
+      }
+    ],
+    "source": "Website form",
+    "stage": "New",
+    "stakeholders": [
+      {
+        "i": "M",
+        "n": "Head of Store Operations",
+        "r": "Requester",
+        "s": "Neutral"
+      }
+    ],
+    "status": "Budget questions sent; no reply after 10 days.",
+    "statusAt": "2026-10-08T09:00:00Z",
+    "strategic": [
+      "Low strategic value; commodity market"
+    ],
+    "timeline": "Unclear",
+    "tasks": [
+      { "id": "ex-retail-t1", "ws": "Proposal", "t": "Send budget qualification questions", "owner": "A. Rahman", "due": "2026-10-09", "status": "Done" },
+      { "id": "ex-retail-t2", "ws": "Proposal", "t": "Chase budget reply and decide go/no-go", "owner": "A. Rahman", "due": "2026-10-24", "status": "To do" },
+      { "id": "ex-retail-t3", "ws": "Pricing", "t": "Draft per-store pricing options", "owner": "M. Haddad", "due": "2026-10-30", "status": "To do" }
+    ],
+    "title": "Footfall analytics for 40 stores",
+    "valueM": 0.6,
+    "valueScore": 30
+  },
+  {
+    "id": "ex-traffic",
+    "client": "Northgate Transport Authority",
+    "createdAt": "2026-10-19T06:00:00Z",
+    "domain": "Smart City",
+    "example": true,
+    "gaps": [
+      "Integration with legacy video management system",
+      "Arabic-language operator UI"
+    ],
+    "need": "Detect accidents and stalled vehicles on 140 km of urban roads using existing CCTV, and alert the operations centre within 60 seconds.",
+    "next": "Run camera site survey and prepare accuracy benchmark by 30 Oct.",
+    "dueDate": "2026-10-30",
+    "owner": "A. Rahman",
+    "products": [
+      {
+        "f": 90,
+        "n": "Vision Analytics",
+        "note": "Core detection models already deployed for similar use"
+      },
+      {
+        "f": 75,
+        "n": "Data Platform",
+        "note": "Ingests camera metadata and incident logs"
+      },
+      {
+        "f": 60,
+        "n": "Geo Intelligence",
+        "note": "Map overlay for the ops centre"
+      }
+    ],
+    "risks": [
+      {
+        "c": "Technical",
+        "l": "M",
+        "m": "Site survey of 20 sample cameras before bid",
+        "note": "Camera quality varies across older sites"
+      },
+      {
+        "c": "Competition",
+        "l": "M",
+        "m": "Lead with detection accuracy benchmarks",
+        "note": "Incumbent vendor offers bundled analytics"
+      },
+      {
+        "c": "Timeline",
+        "l": "L",
+        "m": "",
+        "note": "Tender dates published"
+      }
+    ],
+    "source": "Inbound RFI",
+    "stage": "Qualified",
+    "stakeholders": [
+      {
+        "i": "H",
+        "n": "Director of Operations",
+        "r": "Decision maker",
+        "s": "Champion"
+      },
+      {
+        "i": "M",
+        "n": "IT Infrastructure Lead",
+        "r": "Technical owner",
+        "s": "Neutral"
+      },
+      {
+        "i": "H",
+        "n": "Procurement Committee",
+        "r": "Procurement",
+        "s": "Neutral"
+      },
+      {
+        "i": "M",
+        "n": "Incumbent CCTV vendor",
+        "r": "External",
+        "s": "Blocker"
+      }
+    ],
+    "status": "Ops director confirmed CCTV access for a site survey; tender documents expected early November.",
+    "statusAt": "2026-10-16T09:00:00Z",
+    "strategic": [
+      "First transport reference in the region",
+      "Upsell path to parking and tolling"
+    ],
+    "timeline": "Q1 2027 tender",
+    "tasks": [
+      { "id": "ex-traffic-t1", "ws": "Solution design", "t": "Camera site survey (20 sample cameras)", "owner": "A. Rahman", "due": "2026-10-27", "status": "In progress" },
+      { "id": "ex-traffic-t2", "ws": "Demo", "t": "Detection accuracy benchmark on survey footage", "owner": "L. Park", "due": "2026-10-30", "status": "To do" },
+      { "id": "ex-traffic-t3", "ws": "Security questionnaire", "t": "Review tender security requirements", "owner": "N. Farouk", "due": "2026-11-06", "status": "To do" },
+      { "id": "ex-traffic-t4", "ws": "Pricing", "t": "Cost model for 140 km coverage", "owner": "M. Haddad", "due": "2026-11-12", "status": "To do" }
+    ],
+    "title": "Citywide traffic incident detection",
+    "valueM": 4.2,
+    "valueScore": 78
+  },
+  {
+    "id": "ex-fraud",
+    "client": "Gulf Commercial Bank",
+    "createdAt": "2026-10-19T06:00:00Z",
+    "domain": "Finance",
+    "example": true,
+    "gaps": [
+      "PCI-DSS attestation for a hosted deployment",
+      "Real-time scoring under 100 ms at peak volume"
+    ],
+    "need": "Score card transactions for fraud in near real time and give the fraud team a case-management queue.",
+    "next": "Run pilot scoping workshop with fraud operations.",
+    "dueDate": "2026-10-26",
+    "owner": "S. Ali",
+    "products": [
+      { "f": 90, "n": "Risk & Compliance Engine", "note": "Rule plus ML scoring with case management" },
+      { "f": 72, "n": "Predictive Analytics Studio", "note": "Behavioural anomaly models" },
+      { "f": 68, "n": "Data Platform", "note": "Real-time transaction ingestion" }
+    ],
+    "risks": [
+      { "c": "Security", "l": "M", "m": "Reuse certified hosting; start PCI-DSS evidence early", "note": "Payment data brings PCI-DSS scope" },
+      { "c": "Competition", "l": "M", "m": "Lead with explainability and local support", "note": "Global fraud vendors already pitching" },
+      { "c": "Technical", "l": "L", "m": "", "note": "Bank shared 6 months of anonymised data for a pilot" }
+    ],
+    "source": "Partner referral",
+    "stage": "Qualified",
+    "stakeholders": [
+      { "i": "H", "n": "Head of Fraud Risk", "r": "Decision maker", "s": "Champion" },
+      { "i": "H", "n": "CISO", "r": "Approver", "s": "Neutral" },
+      { "i": "M", "n": "CIO", "r": "Budget holder", "s": "Neutral" }
+    ],
+    "status": "Fraud ops workshop held; bank shared 6 months of anonymised transactions for a pilot.",
+    "statusAt": "2026-10-17T09:00:00Z",
+    "strategic": [
+      "Reference for the wider financial sector",
+      "Recurring model-tuning services"
+    ],
+    "tasks": [
+      { "id": "ex-fraud-t1", "ws": "Solution design", "t": "Pilot architecture on anonymised transactions", "owner": "S. Ali", "due": "2026-10-23", "status": "In progress" },
+      { "id": "ex-fraud-t2", "ws": "Security questionnaire", "t": "PCI-DSS responses for the hosted option", "owner": "N. Farouk", "due": "2026-10-30", "status": "To do" },
+      { "id": "ex-fraud-t3", "ws": "Demo", "t": "Fraud scoring demo on sample data", "owner": "L. Park", "due": "2026-11-03", "status": "To do" },
+      { "id": "ex-fraud-t4", "ws": "Pricing", "t": "Pilot and licence pricing", "owner": "M. Haddad", "due": "2026-11-06", "status": "To do" }
+    ],
+    "timeline": "Pilot decision Dec 2026",
+    "title": "Card fraud detection platform",
+    "valueM": 4.5,
+    "valueScore": 80
+  },
+  {
+    "id": "ex-parking",
+    "client": "Municipal Mobility Agency",
+    "createdAt": "2026-10-19T06:00:00Z",
+    "domain": "Smart City",
+    "example": true,
+    "gaps": [
+      "Open-data API for the public parking app"
+    ],
+    "need": "Measure live bay occupancy from existing street cameras and publish availability to a mobile app.",
+    "next": "Hold project kickoff and confirm the camera access list.",
+    "dueDate": "2026-11-03",
+    "owner": "A. Rahman",
+    "products": [
+      { "f": 82, "n": "Vision Analytics", "note": "Occupancy detection on existing cameras" },
+      { "f": 70, "n": "Geo Intelligence", "note": "Bay-level map for the app" }
+    ],
+    "risks": [
+      { "c": "Technical", "l": "L", "m": "", "note": "Same camera models as the earlier survey" },
+      { "c": "Budget", "l": "L", "m": "", "note": "Contract signed and funded" }
+    ],
+    "source": "Existing client",
+    "stage": "Won",
+    "stakeholders": [
+      { "i": "H", "n": "Head of Mobility", "r": "Sponsor", "s": "Champion" },
+      { "i": "M", "n": "Parking App Team Lead", "r": "Technical owner", "s": "Neutral" }
+    ],
+    "status": "Contract signed; project kickoff scheduled for 3 November.",
+    "statusAt": "2026-10-15T09:00:00Z",
+    "strategic": [
+      "Reference for mobility upsell",
+      "Extends the existing city contract"
+    ],
+    "tasks": [
+      { "id": "ex-parking-t1", "ws": "Proposal", "t": "File the countersigned contract", "owner": "A. Rahman", "due": "2026-10-15", "status": "Done" },
+      { "id": "ex-parking-t2", "ws": "Solution design", "t": "Confirm camera access list", "owner": "A. Rahman", "due": "2026-10-30", "status": "To do" },
+      { "id": "ex-parking-t3", "ws": "Security questionnaire", "t": "Complete client security onboarding", "owner": "N. Farouk", "due": "2026-11-05", "status": "To do" }
+    ],
+    "timeline": "Live Nov 2026",
+    "title": "City parking occupancy analytics",
+    "valueM": 1.8,
+    "valueScore": 58
+  },
+  {
+    "id": "ex-solar",
+    "client": "Renewables Holdings",
+    "createdAt": "2026-10-19T06:00:00Z",
+    "domain": "Energy",
+    "example": true,
+    "gaps": [
+      "Weather data integration and licensing",
+      "Probabilistic forecast bands"
+    ],
+    "need": "Forecast hourly output for 18 solar farms to cut grid balancing penalties.",
+    "next": "Prepare a sample forecast on public weather data.",
+    "dueDate": "2026-11-02",
+    "owner": "S. Ali",
+    "products": [
+      { "f": 62, "n": "Predictive Analytics Studio", "note": "Forecast templates exist; weather integration needed" },
+      { "f": 55, "n": "Data Platform", "note": "Needs weather feed connectors" }
+    ],
+    "risks": [
+      { "c": "Technical", "l": "H", "m": "Partner with a weather data provider", "note": "Forecast accuracy depends on licensed weather data" },
+      { "c": "Budget", "l": "H", "m": "Qualify budget owner before investing in a demo", "note": "No budget until the Q2 2027 cycle" },
+      { "c": "Competition", "l": "M", "m": "", "note": "Specialist forecasting vendors in the market" }
+    ],
+    "source": "Conference lead",
+    "stage": "New",
+    "stakeholders": [
+      { "i": "H", "n": "Head of Trading", "r": "Requester", "s": "Neutral" },
+      { "i": "M", "n": "Asset Manager", "r": "End user", "s": "Unknown" }
+    ],
+    "status": "Intro meeting at a conference; they asked for a sample forecast on public data.",
+    "statusAt": "2026-10-14T09:00:00Z",
+    "strategic": [
+      "Largest single deal if won",
+      "Entry into the renewables segment"
+    ],
+    "tasks": [
+      { "id": "ex-solar-t1", "ws": "Solution design", "t": "Scope weather data sources and licensing", "owner": "R. Khan", "due": "2026-10-29", "status": "To do" },
+      { "id": "ex-solar-t2", "ws": "Demo", "t": "Sample forecast on public weather data", "owner": "L. Park", "due": "2026-11-02", "status": "In progress" },
+      { "id": "ex-solar-t3", "ws": "Pricing", "t": "Rough order-of-magnitude estimate", "owner": "M. Haddad", "due": "2026-11-09", "status": "To do" }
+    ],
+    "timeline": "Budget cycle Q2 2027",
+    "title": "Solar farm output forecasting",
+    "valueM": 12,
+    "valueScore": 70
+  }
+]

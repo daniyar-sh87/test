@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Opportunity Desk</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Opportunity Desk</h1>
+      <p class="sub">Every deal needs an owner, a stage and a next step with a due date.</p>
+    </div>
+    <label class="whobox"><span class="label">You</span><input id="who" autocomplete="name" placeholder="Your name"></label>
+  </header>
+
+  <div class="nav">
+    <div class="navtabs" role="navigation" aria-label="Sections">
+      <button class="navbtn" id="nav-board" data-v="board">Board</button>
+      <button class="navbtn" id="nav-settings" data-v="settings">Settings</button>
+    </div>
+    <button class="btn primary" id="newBtn">+ New deal</button>
+  </div>
+
+  <div id="notice" hidden class="notice" role="status"></div>
+  <main id="view"></main>
+</div>
+<div id="panelRoot"></div>
+<script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "opportunity-desk",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Qualify sales opportunities by solution fit, value and risk, with AI drafting from RFPs.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "seed": "node server/seed.js --reset",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.135.0",
+    "better-sqlite3": "^13.0.3",
+    "dotenv": "^16.4.5",
+    "express": "^5.3.0"
+  }
+}
