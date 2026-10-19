@@ -1,3 +1,4 @@
+<img width="1647" height="973" alt="start_dashboard" src="https://github.com/user-attachments/assets/e7ac197f-78c0-457b-bf82-b7b960ef0899" />
 # Opportunity Desk
 
 Qualify every sales lead by solution fit, value and risk, in one view shared by sales, presales and leadership.
